@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This repository provides a set of makefiles that are used by the OpenWrt build system, to
+This repository provides a set of makefiles, that are used by the OpenWrt build system, to
 
 1. create binary feeds of .ipk or .apk packages, to facilitate the installation of FHEM on OpenWrt based routers and computers, and
 
-2. create custom OpenWrt based firmware images, that includes a tailored FHEM installation
+2. create custom OpenWrt based firmware images, that include tailored FHEM installations
 
 ## Difference to preexisting solutions
 

@@ -117,4 +117,4 @@ Stores the PID of the FHEM service instance, used by the service script
 
 ## FHEM OpenWrt Integration (UBUS)
 
-
+A pure Perl implementation of the UBUS binary protocol is being developed, that will enable a more seamless integration, and allow the configuration and administration of FHEM from within OpenWrt's web interface LuCI.
