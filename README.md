@@ -34,7 +34,7 @@ Starting with ``25.12``, and for current development snapshots, OpenWrt switched
 ```
 $ wget -P /etc/apk/keys/ https://fhem.github.io/openwrt/fhem-public-key.pem
 
-$ echo 'https://fhem.github.io/openwrt/25.12/all' >> /etc/apk/repositories.d/customfeeds.list
+$ echo 'https://fhem.github.io/openwrt/25.12/all/packages.adb' >> /etc/apk/repositories.d/customfeeds.list
 
 $ apk update
 ```
