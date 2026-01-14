@@ -1,7 +1,7 @@
 Package: fhem-bin
 Version: 6.4.29803-r1
 Depends: libc, perl, perlbase-essential, perlbase-storable, perlbase-io, perlbase-time, perlbase-scalar, perlbase-posix, perlbase-file, perlbase-list, perlbase-encode
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -12,14 +12,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 184320
 Filename: fhem-bin_6.4.29803-r1_all.ipk
-Size: 52327
-SHA256sum: 971d980400226f1f24de60694f76ceaea9e7a70d9c5e8b15cc300adb29cc6097
+Size: 52307
+SHA256sum: 56592e8f2975689227a38b738cab0dea09248828c3cacad22fcca1e72bbb0dbb
 Description:  FHEM client for house automation
 
 Package: fhem-color
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -30,14 +30,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 20480
 Filename: fhem-color_6.4.29803-r1_all.ipk
-Size: 4709
-SHA256sum: 602e3835345af375367d93b46e6f6de31f997c1e93a4a1009df3bc4129fbeb74
+Size: 4700
+SHA256sum: 39ed5e6319ec266d0f7a677f19e0570fa2f8f76ee5bcbe915dc51752e149de3a
 Description:  FHEM::Color
 
 Package: fhem-icons-base
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -48,14 +48,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 112640
 Filename: fhem-icons-base_6.4.29803-r1_all.ipk
-Size: 15951
-SHA256sum: 925f0b72a2ffc6e19ee7b4ef9ad9cf1633390f4df3961ca4b23363806fa36709
+Size: 15946
+SHA256sum: b55bf0b4cf58f24a6ce71b862ffccde190eefe9e96754a48d44b373d3db8610c
 Description:  FHEM Base Icons
 
 Package: fhem-icons-fhemsvg
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, fhem-icons-base
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -66,14 +66,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 5294080
 Filename: fhem-icons-fhemsvg_6.4.29803-r1_all.ipk
-Size: 1093536
-SHA256sum: f920af5211c84a7d7abd865dba7c439e22d6561da290f8fc3f8bafae09641c1e
+Size: 1093529
+SHA256sum: 973c2dd232397b3a57286e91df556577e43017ab99573d17e4331ab5524b7c3b
 Description:  FHEM SVG Icons
 
 Package: fhem-icons-openautomation
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, fhem-icons-base
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -84,14 +84,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 1802240
 Filename: fhem-icons-openautomation_6.4.29803-r1_all.ipk
-Size: 333706
-SHA256sum: 6452cc1c85c2657bc213d7f7d6240000ba5dea4913c25ac525ad18a13baa949d
+Size: 333692
+SHA256sum: 5b8280ddfbfe023cbaecb69c6ef25ec16a1ebc12b469d93f4b9610ddbca8005a
 Description:  FHEM OpenAutomation Icons
 
 Package: fhem-lib-httpmod-utils
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -102,14 +102,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-lib-httpmod-utils_6.4.29803-r1_all.ipk
-Size: 12125
-SHA256sum: 7ba617174c1d51787a8bf5a6d62412e2e7c8a2b173ad26173d84ba6901972328
+Size: 12108
+SHA256sum: 2e418b61ac199eace1504efe7f016518952d9fd98b26e2342127de9a65d6048f
 Description:  FHEM::HTTPMOD::Utils
 
 Package: fhem-lib-modbus-testutils
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -120,14 +120,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 20480
 Filename: fhem-lib-modbus-testutils_6.4.29803-r1_all.ipk
-Size: 4453
-SHA256sum: 421afecf45f0a51e342d55466f6e104be4dfc3c6804008bdb95378161218b81e
+Size: 4440
+SHA256sum: fe93e1d3b7cbec787709acf599542814da006e3d334dfda52e7875f524d9941c
 Description:  FHEM::Modbus::TestUtils
 
 Package: fhem-mod-at
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -138,14 +138,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 40960
 Filename: fhem-mod-at_6.4.29803-r1_all.ipk
-Size: 9952
-SHA256sum: 4f3b36842d8cf3c520cd9b5dd96d673fe4461059116bb3946be9879b16100f8a
+Size: 9941
+SHA256sum: ffa847080269af2129686bdd3ab640f242092e8700bbe5a5cfca566f9af1ed53
 Description:  FHEM Module at
 
 Package: fhem-mod-doif
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, fhem-color
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -156,14 +156,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 389120
 Filename: fhem-mod-doif_6.4.29803-r1_all.ipk
-Size: 82463
-SHA256sum: 8e3198d130a51d254d71bb623922642b3ebcd6c102c76eba3e53168292c6f114
+Size: 82448
+SHA256sum: be89adb202bf57eed991ac0bb776763723b47f5da1471de4939fe79850ff946d
 Description:  FHEM Module DOIF
 
 Package: fhem-mod-fhemweb
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, perlbase-digest, fhem-theme-pgm2-default
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -174,14 +174,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 645120
 Filename: fhem-mod-fhemweb_6.4.29803-r1_all.ipk
-Size: 185041
-SHA256sum: f9a7f9c6c850c11138bc1cf8223f9630b60a263e384b18279472ff6622dff99d
+Size: 185027
+SHA256sum: e95d6ffb2782cdb4fbbcd8c13e5917c4edfdb0188535987c4351b8db4aa3dfaa
 Description:  FHEMWEB Service
 
 Package: fhem-mod-filelog
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -192,14 +192,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 71680
 Filename: fhem-mod-filelog_6.4.29803-r1_all.ipk
-Size: 21534
-SHA256sum: 38b2e9f17c058e833dca3ac2ad0d0d0159cb02f545427a16b1ad54b7642803a2
+Size: 21517
+SHA256sum: 6b48dd4aa98017e11d42dddb2c608f89daaa1fcc4950cad9ceb86dfb3737b450
 Description:  FHEM Module FileLog
 
 Package: fhem-mod-help
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -210,14 +210,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 204800
 Filename: fhem-mod-help_6.4.29803-r1_all.ipk
-Size: 59123
-SHA256sum: 17aa8c11b504ae732641865fd40d391ff7dfd352681f91b6cf70aeec97b8ebdb
+Size: 59111
+SHA256sum: 5e903dfe7259ffc96e120a771ed98e361399a908bcdbe08dd20ea191c90b4d4e
 Description:  FHEM Command help
 
 Package: fhem-mod-jsonlist2
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -228,14 +228,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 10240
 Filename: fhem-mod-jsonlist2_6.4.29803-r1_all.ipk
-Size: 3100
-SHA256sum: 567d9de758e51b54c59e53e7190601a90eff9cd0ac3f87235e8190f88d463547
+Size: 3092
+SHA256sum: 6bacff9d5f48ea7a81907b68e74d95293ff52dff6387cc7950c4b3d570b1507e
 Description:  FHEM Command jsonlist2
 
 Package: fhem-mod-modbus
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, fhem-lib-httpmod-utils, perl-device-serialport
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -246,14 +246,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 286720
 Filename: fhem-mod-modbus_6.4.29803-r1_all.ipk
-Size: 66107
-SHA256sum: acb1f274ed6ed14eb6bc6a352bc627933ba546b2d957f722e6dbe954d6c7f292
+Size: 66094
+SHA256sum: 9f3767e58735e00c6489074f6242ab45468522664b04dc835a547cc984698890
 Description:  FHEM Module Modbus
 
 Package: fhem-mod-modbusattr
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, fhem-mod-modbus
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -264,14 +264,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 81920
 Filename: fhem-mod-modbusattr_6.4.29803-r1_all.ipk
-Size: 17871
-SHA256sum: 43f23a73501c36bf44867870c2398b7d33c964310edc309680588c67f913e2db
+Size: 17868
+SHA256sum: efb112388c964142e843868ea7210ebd3dff8bd1d0a6ac2622b6d625b29aefec
 Description:  FHEM Module ModbusAttr
 
 Package: fhem-mod-notify
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -282,14 +282,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 40960
 Filename: fhem-mod-notify_6.4.29803-r1_all.ipk
-Size: 10433
-SHA256sum: 14e5cd91e802bafa5eb725d0e3df557bdf1ee686384b53bac3026d0548f8de48
+Size: 10423
+SHA256sum: c79e59d9ce2b0a8108bc9aeefed91e53b19cb2bba7581a05be99528ce37d963c
 Description:  FHEM Module notify
 
 Package: fhem-mod-obis
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -300,14 +300,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-mod-obis_6.4.29803-r1_all.ipk
-Size: 15377
-SHA256sum: dfb7e63be2c470b8638b1a2465770e5b879e586128f6764b75e5f5c0c7c36be2
+Size: 15366
+SHA256sum: 848d80a030c29940ee5d8d84d5078eabff4d9bc4faaed9a0ab1ab082472b44e8
 Description:  FHEM Module OBIS
 
 Package: fhem-mod-sequence
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -318,14 +318,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 20480
 Filename: fhem-mod-sequence_6.4.29803-r1_all.ipk
-Size: 4774
-SHA256sum: 2a8339323b163c008a8ed83d1f87cf02941b9a0318415479401df18ecf5eee10
+Size: 4761
+SHA256sum: 49532372cd97df3f4ae1b46a5b5293e6fae0a63152de0770212deac4f570ff6f
 Description:  FHEM Module sequence
 
 Package: fhem-mod-telnet
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -336,14 +336,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 30720
 Filename: fhem-mod-telnet_6.4.29803-r1_all.ipk
-Size: 8205
-SHA256sum: 05b8a3ea3ce277f8bcb27dffc0fb0251ea968619f386321256640754f00db1d3
+Size: 8189
+SHA256sum: 6d05a6b27d65bffdef0ca4d233d6228e23f866114f971346cd3c91c441a4763e
 Description:  FHEM Telnet Service
 
 Package: fhem-mod-watchdog
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -354,14 +354,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 30720
 Filename: fhem-mod-watchdog_6.4.29803-r1_all.ipk
-Size: 7078
-SHA256sum: a3b3167e36d7760e4a220f9dc5081e89f4b13671782586d915434d3fb6b98df2
+Size: 7065
+SHA256sum: f74b83eb85edd5b9e0e8831d247dd55005dbcc32d18a230cca49f3e2b18ec93d
 Description:  FHEM Module watchdog
 
 Package: fhem-service
 Version: 6.4.29803-r1
 Depends: libc, fhem-bin
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -373,14 +373,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 174080
 Filename: fhem-service_6.4.29803-r1_all.ipk
-Size: 43798
-SHA256sum: 8dfd2aa7552b10850232f0089d12120ec234ee5d77bda98b3f18b462a1981ebc
+Size: 43792
+SHA256sum: 02aa5161d9f1606400e8cc1e912ffe340cabbc0391ffa4e3eee2ba23dde82c3e
 Description:  FHEM server for house automation
 
 Package: fhem-theme-pgm2-dark
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -391,14 +391,14 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-theme-pgm2-dark_6.4.29803-r1_all.ipk
-Size: 13903
-SHA256sum: 7a7fc3346ab1229a383046386a02169ec65dc6e83032a49f46b7288d476f94e1
+Size: 13890
+SHA256sum: 92e9b103e67fc048138b119f3619a11e87cc1d8e42d9fc76a2beef9646aca66a
 Description:  FHEMWEB Dark Theme
 
 Package: fhem-theme-pgm2-default
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
-Source: /home/jens/GIT/fhem/openWRT/fhem
+Source: feeds/fhem/fhem
 SourceName: fhem
 License: GPL-2.0-or-later
 LicenseFiles: docs/copyright
@@ -409,7 +409,7 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-theme-pgm2-default_6.4.29803-r1_all.ipk
-Size: 15609
-SHA256sum: 66ca5482f686ca41e317a53f67106ec6ed571a1fd9f4bfac72ee69b90eda4910
+Size: 15595
+SHA256sum: 75476fd2fc66236e7dc6bbd02742987d459b1c40b0c09a42fbaf5f91867370d7
 Description:  FHEMWEB Default Theme
 
